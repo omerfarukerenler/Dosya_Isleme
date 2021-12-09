@@ -1,0 +1,113 @@
+﻿@model IEnumerable<MvcWebService_Tekrar2.ServiceReference1.tbl_NewVendorData>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="baslik"><i>Customer List</i></h2>
+<br />
+
+
+    <div class="container">
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                <input type="text" id="Search" class="form-control" />
+            </div>
+        </div>
+    </div>
+<br />
+
+
+
+
+
+
+
+
+@*<p>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+    {
+
+        <b>Search By:</b><br /> @Html.TextBox("searchBy", "Musteri_Adi", true) <br /><br />
+        @Html.TextBox("searchBy", "Musteri_Soyadi", true) <br /><br />
+        @Html.TextBox("searchBy", "Musteri_Adresi", true) <br /><br />
+        @Html.TextBox("searchBy", "Musteri_Telefon", true) <br /><br />
+        @Html.TextBox("search")<input type="submit" value="search" />
+    }
+</p>*@
+
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Musteri_Adi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musteri_Adresi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musteri_Soyadi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musteri_Telefon)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr class="Search">
+        <td>
+            @Html.DisplayFor(modelItem => item.Musteri_Adi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musteri_Adresi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musteri_Soyadi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musteri_Telefon)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+        </td>
+    </tr>
+}
+
+</table>
+
+<script src="~/Scripts/jquery-3.4.1.slim.min.js"></script>
+<script>
+    $(document).ready(function () {
+        function Contains(text_one, text_two) {
+            if (text_one.indexOf(text_two) != -1)
+                return true;
+        }
+        $("#Search").keyup(function () {
+            var searchText = $("#Search").val().toLowerCase();
+            $(".Search").each(function () {
+                if (!Contains($(this).text().toLowerCase(), searchText)) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+

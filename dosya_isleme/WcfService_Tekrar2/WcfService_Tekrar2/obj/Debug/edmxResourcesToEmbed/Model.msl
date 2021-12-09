@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="odevModelStoreContainer" CdmEntityContainer="odevEntities">
+    <EntitySetMapping Name="tbl_NewVendorData">
+      <EntityTypeMapping TypeName="odevModel.tbl_NewVendorData">
+        <MappingFragment StoreEntitySet="tbl_NewVendorData">
+          <ScalarProperty Name="Musteri_Adi" ColumnName="Musteri_Adi" />
+          <ScalarProperty Name="Musteri_Soyadi" ColumnName="Musteri_Soyadi" />
+          <ScalarProperty Name="Musteri_Adresi" ColumnName="Musteri_Adresi" />
+          <ScalarProperty Name="Musteri_Telefon" ColumnName="Musteri_Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

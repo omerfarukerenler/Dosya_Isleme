@@ -1,0 +1,10 @@
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\bin\WcfService_Tekrar2.dll.config
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\bin\WcfService_Tekrar2.dll
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\bin\WcfService_Tekrar2.pdb
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\bin\EntityFramework.dll
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\bin\EntityFramework.xml
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\obj\Debug\WcfService_Tekrar2.csproj.AssemblyReference.cache
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\obj\Debug\WcfService_Tekrar2.csproj.CoreCompileInputs.cache
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\obj\Debug\WcfService_Tekrar2.csproj.CopyComplete
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\obj\Debug\WcfService_Tekrar2.dll
+C:\Users\Faruk\source\repos\WcfService_Tekrar2\WcfService_Tekrar2\obj\Debug\WcfService_Tekrar2.pdb
